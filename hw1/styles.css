@@ -298,9 +298,9 @@ main {
 .projects__grid {
   max-width: 1100px;
   margin: 0 auto;
-  /* display: */
-  /* grid-template-columns: */
-  /* grid-gap: */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, calc(100% / 3 - 1 * 2 / 3));
+  grid-gap: 1em;
 }
 
 /* END PART 9 */
