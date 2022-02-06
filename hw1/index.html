@@ -43,8 +43,8 @@
 
       <!-- 
         5.1: What does this button tag correspond to on the site? 
-      
-      
+        
+        It corresponds to the crescent moon on top right of the site.
       -->
 
       <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
@@ -56,8 +56,8 @@
         appears in 2 places. Why is one of the rules 'display: none' on one instance? How do you
         make it so that this button appears on screen? 
         Hint: remember what @media (max-width: 600px) means.
-
-
+        
+        When you squeeze the size of the screen below a max-width 600px, the hamburger bar btn will show up.
        -->
 
       <!-- END PART 5 -->
@@ -67,6 +67,22 @@
   <main>
     <div class="about center">
       <!-- BEGIN PART 6 -->
+      <h1>
+        Hi, I'm <span class="about__name">Kan Jen Cheng</span>
+      </h1>
+      <div class="about__role">
+        <h2>Student at UC Berkeley</h2>
+      </div>
+      <div class="about__desc">
+        <p>
+          As a junior pursuing a bachelor degree in Computer Science/Data Science, 
+          I have always been passionate about problem solving, designing algorithms, and researching. 
+          My experience from school, positions I held, has shaped me into a knowledge seeker and 
+          I am always longing for learning new things. 
+          Brining my knowledge and new ideas together creates a different way to analyze problems and solve them, 
+          which I believe is the fundamentals of science.
+        </p>
+      </div>
       <!-- END PART 6 -->
       <div class="about__contact center">
         <a href="https://example.com">
@@ -86,6 +102,46 @@
       <h2 class="section__title">Projects</h2>
       <div class="projects__grid">
         <!-- BEGIN PART 8 -->
+        <div class="project">
+          <h3>Project 1</h3>
+          <p class="project__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Java</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p class="project__description">
+            Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+            sapiente debitis labore sed ipsam Mollitia repellat illum quod
+            unde beatae Quis
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Java</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://example.com" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
         <div class="project">
           <h3>Project 1</h3>
           <p class="project__description">
