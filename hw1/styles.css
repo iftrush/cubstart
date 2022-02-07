@@ -345,12 +345,13 @@ main {
   max-width: 450px;
   width: 95%;
   margin: 0 auto;
-  /* display: */
-  /* flex-wrap: */
-  /* justify-content: */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skills__list-item {
+  margin: 0.5em;
 }
 
 /* END PART 11 */
@@ -363,12 +364,46 @@ main {
   padding: 3em 0;
   margin-top: 4em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #b3d9ff;
 }
 
 .footer__link {
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--clr-fg);
+}
+
+.footer__cols {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer__center {
+  text-align: left;
+}
+
+.footer__center p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer__center p span {
+  display: block;
+}
+
+.footer__center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin: 10px 15px;
+  line-height: 42px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .scroll-top {
@@ -379,6 +414,24 @@ main {
   background-color: transparent;
   font-size: 1.8rem;
   transition: transform 0.2s ease-in-out;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
 }
 
 @media (max-width: 600px) {
