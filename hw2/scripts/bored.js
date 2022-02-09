@@ -5,6 +5,9 @@ const card = document.getElementById("card");
 
 async function fetchActivity() {
   // YOUR CODE HERE
+  const response = await fetch("https://www.boredapi.com/api/activity");
+  const activity = await response.json();
+  return activity;
 }
 
 // END PART 7
@@ -17,6 +20,10 @@ boredButton.addEventListener("click", async () => {
   card.replaceChildren();
   const activity = await fetchActivity();
   // BEGIN PART 8
-
+  for (const [key, value] of Object.entries(activity)) {
+    const detail = document.createElement("p");
+    detail.innerHTML = key + ": " + value;
+    card.appendChild(detail);
+  }
   // END PART 8
 });
