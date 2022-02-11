@@ -4,8 +4,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+
 
 #bored-button {
   cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid orange;
+  padding: 20px;
+  /* vertical align the text */
+  display: flex;
+  align-items: center;
+}
+
+#bored-button:hover {
+  color: yellow;
+}
+
+#bored-button:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 1px 1px 1px red;
+}
+
+#card p {
+  font-size: 20px;
+  font-family: "serif";
+  text-align: center;
 }
