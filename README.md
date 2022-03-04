@@ -14,3 +14,10 @@
 1. Old version: Use a dictionary based generator based on given text(getCaption1)
 2. Old version: Use a sentiment generator based on given text (getCaption2)
 3. The current version: Use a AI paragraph generator based on given text (getCaption3)
+4. If I need to modify some css property in script, I need a in-line script in the html tag.
+
+### HW4
+1. Submitted Midterm Mental Healthy Survey
+
+### HW5
+1. Done hw5, haven't created any creativity stuffs
