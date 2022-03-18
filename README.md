@@ -21,3 +21,7 @@
 
 ### HW5
 1. Done hw5, haven't created any creativity stuffs
+
+### HW6
+1. When we create a route with an end point, if we want to use that, we need to fetch it.
+2. fetch() returns a promise that needs a then() to output.
