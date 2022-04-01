@@ -25,3 +25,7 @@
 ### HW6
 1. When we create a route with an end point, if we want to use that, we need to fetch it.
 2. fetch() returns a promise that needs a then() to output.
+
+### HW7
+1. Familiar with socket.emit, socket.boardcast.emit
+2. Put "var name" inside the io.on function to make the name displayed correctly 
